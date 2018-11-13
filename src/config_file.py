@@ -1,5 +1,5 @@
 
-stocks = {
+stocks_data = {
     1: {
         'stock_type': 'Common',
         'last_dividend': 0.0,

@@ -1,10 +1,12 @@
 
-from super_simple_stocks import Utilities, all_price_index
+from src.Utilities import Utilities
+from src.Utilities import all_price_index
 
 utility = Utilities()
 stock_list = utility.create_stock()
+print(stock_list)
 trade_list, trade_details = utility.create_trades()
-
+print(trade_details)
 # recoding trades
 utility.record_trades(stock_list, trade_list)
 
