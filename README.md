@@ -4,7 +4,7 @@ Execute driver.py
 
 Data is populated dynamically from utility functions create_trades() and 
 create_stock().
-Values differ for every run.
+Values differ for every run(Because it is based on current timestamp).
 
 Static constraints:
 I am creating a whole of 50 trades and assigning them to stocks.
