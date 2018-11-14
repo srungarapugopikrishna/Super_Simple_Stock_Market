@@ -1,6 +1,6 @@
                                 Super Simple Stock Market
 
-Execute main.py
+Execute driver.py
 
 Data is populated dynamically from utility functions create_trades() and 
 create_stock().
