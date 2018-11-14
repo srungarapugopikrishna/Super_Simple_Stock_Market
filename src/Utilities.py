@@ -1,8 +1,8 @@
 
 from datetime import datetime
 from datetime import timedelta
-from src.Stock import Stock
-from src.Trade import Trade
+from src.models.Stock import Stock
+from src.models.Trade import Trade
 from functools import reduce
 import operator
 

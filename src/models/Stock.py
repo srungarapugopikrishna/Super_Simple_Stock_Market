@@ -1,8 +1,8 @@
 
 from datetime import datetime
 from datetime import timedelta
-from src.Trade import Trade
-from src.Symbol import Symbol
+from src.models.Trade import Trade
+from src.entities.Symbol import Symbol
 from src.config_file import stocks_data
 
 

@@ -1,6 +1,6 @@
 import unittest
 
-from src.Stock import Stock
+from src.models.Stock import Stock
 
 
 class TestStockMethods(unittest.TestCase):
